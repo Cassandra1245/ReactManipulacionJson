@@ -1,24 +1,42 @@
 [
-    {
-      "id": 1,
-      "nombre": "Camiseta",
-      "precio": 20,
-      "categoria": "ropa",
-      "stock": 15
-    },
-    {
-      "id": 2,
-      "nombre": "Pantalón",
-      "precio": 30,
-      "categoria": "ropa",
-      "stock": 8
-    },
-    {
-      "id": 3,
-      "nombre": "Zapatos",
-      "precio": 50,
-      "categoria": "calzado",
-      "stock": 5
+  {
+    "id": 1,
+    "nombre": "Producto 1",
+    "precio": 100,
+    "stock": 15,
+    "categorias": ["Electronica", "Gadgets"],
+    "detalles": {
+      "descripcion": "Un gran producto de electrónica",
+      "valoraciones": [
+        { "usuario": "Juan", "puntuacion": 4, "comentario": "Muy bueno" },
+        { "usuario": "Ana", "puntuacion": 5, "comentario": "Excelente!" }
+      ]
     }
-  ]
-  
+  },
+  {
+    "id": 2,
+    "nombre": "Producto 2",
+    "precio": 200,
+    "stock": 8,
+    "categorias": ["Hogar", "Decoracion"],
+    "detalles": {
+      "descripcion": "Ideal para el hogar",
+      "valoraciones": [
+        { "usuario": "Pedro", "puntuacion": 3, "comentario": "Regular" }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "nombre": "Producto 3",
+    "precio": 50,
+    "stock": 20,
+    "categoria": "Hogar",  
+    "detalles": {
+      "descripcion": "Un interesante libro sobre programación",
+      "valoraciones": [
+        { "usuario": "Carlos", "puntuacion": 5, "comentario": "Muy informativo" }
+      ]
+    }
+  }
+]
